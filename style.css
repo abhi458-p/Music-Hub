@@ -1,0 +1,215 @@
+body{
+    /* font-family:"Montserrat"; */
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:"Montserrat-Bold";
+}
+
+p{
+    color: #8f8f8f;
+
+}
+
+/* Heading */
+
+.big-heading{
+    font-family: "Montserrat-Black";
+    font-size: 2.2rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.section-heading{
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 3.5rem;
+}
+
+.music img{
+    width: 100%;
+    height: auto;
+    padding: 55px;
+}
+
+/* containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+.pad{
+    margin-top: 75px;
+}
+
+.navbar{
+    padding: 0 0;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-family: "Montserrat-Light";
+}
+
+
+/*title section */
+
+#title{
+    background: linear-gradient(#f037a5 -20%, #4001f5 130%);
+    text-align: left;
+    color: #fff;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+/* download-button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Features */
+
+
+.features{
+    
+    padding: 3%;
+}
+
+.icon{
+    margin-bottom: 1rem;
+    color: #a620c7;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+/* 
+testimonials section */
+
+#testimonials {
+   
+    background: linear-gradient(#f037a5 -20%, #4001f5 130%);
+    color: #fff;
+}
+
+.testinomial-image{
+    width: 10%;
+    border-radius: 100%; 
+    
+}
+
+.testimonial-text{
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 3.5rem;
+}
+
+
+/* press */
+
+#press{
+    background: linear-gradient(#4001f5 -20%, #f037a5 120%);
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+}
+
+.price-tag{
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 3.5rem;
+}
+
+.outer-div{
+    text-align: center;
+    width: 310px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing-col{
+    padding: 2% 3%;
+    max-width: 400px;
+}
+
+
+.inline-block {
+    display: inline-block;
+}
+
+.head{
+    background: #a620c7;
+    color: #fff;
+}
+
+.special{
+    width: 100%;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+/* bank */
+
+.bank-logo{
+  
+ display: block;
+ text-align: center;
+}
+
+/* Call to Action */
+
+#cta{
+    
+    background: linear-gradient(#f037a5 -20%, #4001f5 130%);
+    color: #fff;
+}
+
+
+/* Footer */
+
+#footer{
+    margin-top: 30px;
+}
+
+
+.social-icons{
+    margin: 20px 10px;
+    color: black;
+}
+
+/* reposive */
+
+
+@media (max-width:990px) {
+     #title{
+         text-align: center;
+     }
+     .title-image{
+         margin-left: 150px;
+     }
+}
